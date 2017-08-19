@@ -1,26 +1,17 @@
 analytics:
   google:
-    id: UA-100531691-1
-  piwik:
-    id: 1
-    api:
-      url: https://vps.irockbunny.com/analytics/?callback=?
-      token: 88159fbcb399b22e4205f824a9402a05
+    id: UA-104944894-1
 
-repository: BYR-Navi/BYR-Navi
-repository_url: https://github.com/BYR-Navi/BYR-Navi
+repository: swufer-home/swufer-home
+repository_url: https://github.com/swufer-home/swufer-home
 
 timezone: Asia/Shanghai
 
-name: 北邮人导航 · BYR-Navi
-author: iROCKBUNNY
-author_url: http://irockbunny.com
-organization: TEELAB
-organization_url: http://teelab.net
-description: A Navigation Website for BYR
-keywords: 北邮人导航, BYR-Navi, BYR, BUPT, Navi, Navigation
-url: http://byr-navi.com
-contact: contact[at]irockbunny[dot]com
+name: 苏菲导航 · Swufer-Home
+author: jOKER
+description: A Navigation Website for Swufer
+keywords: 苏菲导航, Swufer-home, Swufer, Navi, Navigation, 西财, 西南财经大学
+url: https://swufer-home.github.io
 
 logo: /images/logo.png
 logo_dark: /images/logo-dark.png
