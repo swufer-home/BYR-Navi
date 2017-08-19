@@ -1,21 +1,27 @@
 <div class="ui inverted vertical footer segment">
     <div class="ui container">
         <div class="ui stackable inverted divided equal height stackable grid">
-            <div class="four wide column">
+           <div class="three wide column">
                 <h4 class="ui inverted header">Powered by</h4>
                 <div class="ui inverted link list">
                     {% for item in site.data.powered_by %}<a class="item" href="{{ item.url }}" target="_blank">{{ item.name }}</a>{% endfor %}
                 </div>
-            <div class="four wide column">
+            </div>
+            <div class="three wide column">
+                <h4 class="ui inverted header">Forked by</h4>
+                <div class="ui inverted link list">
+                    {% for item in site.data.forked_by %}<a class="item" href="{{ item.url }}" target="_blank">{{ item.name }}</a>{% endfor %}
+                </div>
+            </div>
+            <div class="three wide column">
                 <h4 class="ui inverted header">About</h4>
                 <div class="ui inverted link list">
                     <a class="item" href="{{ site.author_url }}" target="_blank">{{ site.author }}</a>
-                    <a class="item" href="{{ site.organization_url }}" target="_blank">{{ site.organization }}</a>
                     <a class="item" href="https://saythanks.io/to/{{ site.author }}" target="_blank">Say Thanks</a>
-                    <a class="item" href="http://www.ghy.swufe.edu.cn/" target="_blank">光华园</a>
+                    <a class="item" href="http://byr-navi.com/" target="_blank">北邮人导航</a>
                 </div>
             </div>
-            <div class="eight wide column">
+            <div class="seven wide column">
                 <h4 class="ui inverted header">{{ site.name }}</h4>
                 <div class="ui inverted link list">
                     <div class="item">&copy; {{ site.time | date: "%Y" }} {{ site.organization }}</div>
