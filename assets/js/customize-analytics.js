@@ -1,7 +1,7 @@
 // customize-analytics.js
 
 // date range
-var firstDay = new Date(2016, 9, 1);
+var firstDay = new Date(2017, 8, 19);
 function siteSinceDays() {
     var d = new Date();
     var today = new Date(d.getFullYear(), d.getMonth(), d.getDate());
