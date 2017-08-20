@@ -322,6 +322,19 @@
     - name: 云空间
       style: basic
       url: http://cloud.swufe.edu.cn/owncloud/
+      
+    - name: 全校课表
+      style: green
+      url: http://jwc.swufe.edu.cn/jwc/a/gonggongfuwu/benkekebiao/
+      
+    - name: 图书馆数据库
+      style: basic
+      url: http://lib.swufe.edu.cn/webs/res_changyongDB.action
+      
+    - name: 校车时刻表
+      style: basic
+      url: http://houqin.swufe.edu.cn/2014-03/11/201403110926006924.html
+
 
   - category: 财经相关
     links:
@@ -334,7 +347,7 @@
       url: http://www.businessinsider.com/
 
     - name: 中国财政部
-      style: basic
+      style: red
       url: http://www.mof.gov.cn/
 
     - name: 人大经济论坛
