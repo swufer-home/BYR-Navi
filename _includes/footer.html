@@ -1,20 +1,27 @@
 <div class="ui inverted vertical footer segment">
     <div class="ui container">
         <div class="ui stackable inverted divided equal height stackable grid">
-           <div class="four wide column">
+           <div class="three wide column">
                 <h4 class="ui inverted header">Powered by</h4>
                 <div class="ui inverted link list">
                     {% for item in site.data.powered_by %}<a class="item" href="{{ item.url }}" target="_blank">{{ item.name }}</a>{% endfor %}
                 </div>
             </div>
-            <div class="four wide column">
+            <div class="three wide column">
                 <h4 class="ui inverted header">友情链接</h4>
                 <div class="ui inverted link list">
                     <a class="item" href="https://saythanks.io/to/{{ site.author }}" target="_blank">Say Thanks</a>
                     <a class="item" href="http://byr-navi.com/" target="_blank">北邮人导航</a>
                 </div>
             </div>
-            <div class="eight wide column">
+            <div class="three wide column">
+                <h4 class="ui inverted header">封面投稿</h4>
+                <div class="ui inverted link list">
+                    <div class="item">欢迎投稿自己的摄影或写真作品，本期封面来自<a class="item" href="http://www.baidu.com/" target="_blank">百度</a>.</div>
+                    <a class="item" href="mailto:swufer_home@sina.com" target="_blank">投稿邮箱</a>
+                </div>
+            </div>
+            <div class="seven wide column">
                 <h4 class="ui inverted header">{{ site.name }}</h4>
                 <div class="ui inverted link list">
                     <div class="item">&copy; {{ site.time | date: "%Y" }} {{ site.organization }}</div>
