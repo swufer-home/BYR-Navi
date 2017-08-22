@@ -13,7 +13,6 @@ A Navigation [Website](https://swufer-home.github.io/swufer-home) for Swufer
 - [JavaScript Cookie](https://github.com/js-cookie/js-cookie)
 - [url.js](https://github.com/websanova/js-url)
 - [ECharts](http://echarts.baidu.com/)
-- [Piwik](https://piwik.org/)
 - [GeoIP](http://www.maxmind.com)
 - [Jekyll](http://jekyllrb.com/)
 - [GitHub Pages](https://pages.github.com/)
