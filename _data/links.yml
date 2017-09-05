@@ -255,25 +255,17 @@
       style: basic
       url: http://www.acfun.tv/
 
-    - name: 吐槽
-      style: basic
-      url: http://www.tucao.tv/
+    - name: 熊猫直播
+      style: green
+      url: http://www.panda.tv/
 
-    - name: 腾讯动漫
-      style: basic
-      url: http://ac.qq.com/
+    - name: 斗鱼直播
+      style: orange
+      url: http://www.douyu.com/
 
     - name: 虾米
       style: basic
       url: http://www.xiami.com/
-
-    - name: 多瑙影院
-      style: basic
-      url: http://www.dnvod.tv/
-
-    - name: FIX字幕侠
-      style: basic
-      url: http://www.fixsub.com/
 
 - section: swufer
   categories:
