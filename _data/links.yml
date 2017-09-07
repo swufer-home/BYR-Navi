@@ -266,6 +266,10 @@
     - name: 虾米
       style: basic
       url: http://www.xiami.com/
+      
+    - name: 网易云音乐
+      style: basic
+      url: http://music.163.com/
 
 - section: swufer
   categories:
@@ -356,6 +360,10 @@
 
   - category: 其他
     links:
+    - name: Nika_M
+      style: orange
+      url: http://weibo.com/u/3120657307/
+      
     - name: 光华园
       style: basic
       url: http://www.ghy.swufe.edu.cn/
