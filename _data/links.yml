@@ -162,6 +162,10 @@
     - name: Coursera
       style: basic
       url: https://www.coursera.org/
+      
+    - name: 网易云课堂
+      style: basic
+      url: http://study.163.com/
 
     - name: MOOC
       style: basic
@@ -183,10 +187,6 @@
     - name: SegmentFault
       style: basic
       url: http://segmentfault.com/
-
-    - name: Tutorials Point
-      style: basic
-      url: https://www.tutorialspoint.com/
 
     - name: Google Open Source
       icon: code blue
