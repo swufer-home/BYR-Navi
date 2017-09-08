@@ -21,4 +21,4 @@ $('.loading-trigger').click(function () {
 });
 
 // masthead background
-$('.ui.inverted.masthead.segment').addClass('bg' + Math.ceil(Math.random() * 14)).removeClass('zoomed');
+$('.ui.inverted.masthead.segment').addClass('bg1').removeClass('zoomed');
