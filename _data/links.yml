@@ -291,10 +291,6 @@
       style: basic
       url: http://bbs.byr.cn/
 
-    - name: 校历
-      style: basic
-      url: http://jwc.swufe.edu.cn/jwc/a/gonggongfuwu/xiaolichaxun/
-
     - name: 图书馆
       style: basic
       url: http://lib.swufe.edu.cn/
@@ -318,10 +314,6 @@
     - name: 云空间
       style: basic
       url: http://cloud.swufe.edu.cn/owncloud/
-      
-    - name: 全校课表
-      style: green
-      url: http://jwc.swufe.edu.cn/jwc/a/gonggongfuwu/benkekebiao/
       
     - name: 图书馆数据库
       style: basic
