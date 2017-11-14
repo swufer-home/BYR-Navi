@@ -68,10 +68,10 @@
       style: basic
       url: http://www.kuaidi100.com/
 
-    - name: 大众点评
+    - name: 秀米
       icon: food orange
       style: basic
-      url: http://www.dianping.com/
+      url: http://xiumi.us/
 
     - name: 网易邮箱
       icon: mail red
@@ -159,6 +159,10 @@
 
   - category: 学习
     links:
+    - name: 知网
+      style: red
+      url: http://www.cnki.net/
+    
     - name: Coursera
       style: basic
       url: https://www.coursera.org/
